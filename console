@@ -1,0 +1,1 @@
+rlwrap -c -f .zeno/commands -H .zeno/history java -cp target/zeno-0.9.0.0-jar-with-dependencies.jar:target/zeno-0.9.0.0.jar com.yahoo.zeno.console.Main $*

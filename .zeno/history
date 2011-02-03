@@ -1,0 +1,300 @@
+routes
+info NODE1
+info NODE2
+routes
+info NODE2
+info NODE1
+info NODE2
+loadgen loadgen/load-equal.txt
+routes
+loadgen loadgen/load-0heavy.txt
+info NODE2
+routes
+info NODE2
+info NODE1
+info NODE3
+loadstop
+exit
+loadgen loadgen/load-0heavy.txt
+info NODE3
+routes
+info NODE1
+info NODE2
+info NODE3
+status NDE1
+loadgen loadgen/load-equal.txt
+routes
+loadgen loadgen/load-0heavy.txt
+routes
+loadgen loadgen/load-equal.txt
+info NODE1
+routes
+info NODE1
+info NODE2
+info NODE3
+routes
+loadgen loadgen/load-0heavy.txt
+routes
+info NODE1
+info NODE2
+info NODE3
+routes
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+routes
+info NODE1
+info NODE2
+info NODE3
+routes
+info NODE1
+info NODE2
+info NODE3
+loadgen loadgen/load-0heavy.txt
+info NODE1
+info NODE2
+info NODE3
+routes
+info NODE3
+info NODE2
+info NODE1
+info NODE2
+exit
+info NODE1
+info NODE2
+routes
+info NODE1
+info NODE2
+info NODE3
+loadgen loadgen/load-0heavy.txt
+info NODE3
+routes
+loadgen loadgen/load-0heavy.txt
+routes
+info NODE1
+info NODE2
+info NODE3
+loadgen loadgen/load-0heavy.txt
+routes
+info NODE3
+info NODE2
+info NODE1
+routes
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+routes
+info NODE1
+info NODE2
+info NODE3
+loadgen loadgen/load-equal.txt
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+loadgen loadgen/load-equal.txt
+info NODE1
+info NODE2
+info NODE3
+loadgen loadgen/load-equal.txt
+:q
+loadgen loadgen/load-equal.txt
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE2
+loadgen loadgen/load-equal.txt
+info NODE1
+loadgen loadgen/load-equal.txt
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+loadgen loadgen/load-equal.txt
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE1
+info NODE2
+info NODE1
+info NODE2
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+info NODE2
+info NODE3
+routes
+loadgen loadgen/load-equal.txt
+loadgen loadgen/load-equal-10.txt
+loadgen loadgen/load-slow-10.txt
+loadgen loadgen/load-equal-10.txt
+loadgen loadgen/load-medium-10.txt
+loadgen loadgen/load-high-10.txt
+loadgen loadgen/load-equal.txt
+loadgen loadgen/load-high-10.txt
+loadgen loadgen/load-equal.txt
+loadgen loadgen/load-medium-10.txt
+loadgen loadgen/load-high-10.txt
+loadgen loadgen/low-100.txt
+loadgen loadgen/med-100.txt
+loadgen loadgen/low-100.txt
+loadgen loadgen/med-100.txt
+info NODE1
+loadgen loadgen/med-100.txt
+loadgen loadgen/low-100.txt
+loadgen loadgen/high-100.txt
+pause NODE2
+loadgen loadgen/high-100.txt
+NODE2 pause
+info NODE1
+loadgen loadgen/high-100.txt
+NODE1 pause
+NODE1 unpause
+NODE1 resume
+loadgen loadgen/high-100.txt
+NODE1 pause
+NODE1 resume
+loadgen loadgen/high-100.txt
+loadgen loadgen/med-100.txt
+loadgen loadgen/high-100.txt
+routes
+loadstop
+pause NODE2
+NODE2 pause
+loadgen loadgen/high-100.txt
+NODE1 info
+info NODE1
+info NODE2
+info NODE3
+loadgen loadgen/high-100.txt
+loadgen loadgen/skewed-100.txt
+info NODE3
+loadgen loadgen/high-100.txt
+loadgen loadgen/skewed-100.txt
+loadgen loadgen/high-100.txt
+loadgen loadgen/skewed-100.txt
+loadgen loadgen/high-100.txt
+loadgen loadgen/skewed-100.txt
+info NODE1
+loadgen loadgen/skewed-100.txt
+loadgen loadgen/high-100.txt
+info NODE1
+info NODE2
+info NODE4
+info NODE3
+loadgen loadgen/high-100.txt
+loadgen loadgen/skewed-100.txt
+routes
+loadgen loadgen/high-100.txt
+loadgen loadgen/skewed-100.txt
+info NODE1
+info NODE2
+info NODE3
+info NODE1
+loadgen loadgen/skewed-100.txt
+info NODE1
+loadgen loadgen/skewed-100.txt
+routes
+info NODE1
+info NODE2
+info NODE3
+routes
+loadgen loadgen/skewed-100.txt
+routes
+info NODE1
+info NODE2
+info NODE3
+routes
+loadgen loadgen/skewed-100.txt
+routes
+loadgen loadgen/skewed-100.txt
+routes
+loadgen loadgen/skewed-100.txt
+routes
+loadgen loadgen/skewed-100.txt
+routes
+loadgen loadgen/load-high-10.txt
+loadstop
+routes
+loadgen loadgen/load-high-10.txt
