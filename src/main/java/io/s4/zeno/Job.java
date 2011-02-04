@@ -220,6 +220,7 @@ public class Job {
 
         // otherwise actually take it over
         part = partAcquirer.takeover(id);
+        partMap.put(part);
 
         return part;
     }
