@@ -1,0 +1,65 @@
+create /s4cluster 0
+create /s4cluster/nodes 0
+create /s4cluster/jobs 0
+create /s4cluster/parts 0
+create /s4cluster/route 0
+create /s4cluster/transfer 0
+
+create /s4cluster/nodes/active 0
+create /s4cluster/nodes/standby 0
+create /s4cluster/nodes/resources 0
+
+create /s4cluster/jobs/items 0
+create /s4cluster/jobs/owners 0
+create /s4cluster/jobs/items/J1 0
+create /s4cluster/jobs/items/J2 0
+create /s4cluster/jobs/items/J3 0
+create /s4cluster/jobs/items/J4 0
+create /s4cluster/jobs/items/J5 0
+create /s4cluster/jobs/items/J6 0
+create /s4cluster/jobs/items/J7 0
+create /s4cluster/jobs/items/J8 0
+create /s4cluster/jobs/items/J9 0
+create /s4cluster/jobs/items/J10 0
+
+set /s4cluster/jobs/items/J1 {part.start.count:8,part.adopt.count:4,part.adopt.delay:5000}
+set /s4cluster/jobs/items/J2 {part.start.count:8,part.adopt.count:4,part.adopt.delay:5000}
+set /s4cluster/jobs/items/J3 {part.start.count:8,part.adopt.count:4,part.adopt.delay:5000}
+set /s4cluster/jobs/items/J4 {part.start.count:8,part.adopt.count:4,part.adopt.delay:5000}
+set /s4cluster/jobs/items/J5 {part.start.count:8,part.adopt.count:4,part.adopt.delay:5000}
+set /s4cluster/jobs/items/J6 {part.start.count:8,part.adopt.count:4,part.adopt.delay:5000}
+set /s4cluster/jobs/items/J7 {part.start.count:8,part.adopt.count:4,part.adopt.delay:5000}
+set /s4cluster/jobs/items/J8 {part.start.count:8,part.adopt.count:4,part.adopt.delay:5000}
+set /s4cluster/jobs/items/J9 {part.start.count:8,part.adopt.count:4,part.adopt.delay:5000}
+set /s4cluster/jobs/items/J10 {part.start.count:8,part.adopt.count:4,part.adopt.delay:5000}
+
+create /s4cluster/parts/items 0
+create /s4cluster/parts/owners 0
+create /s4cluster/parts/items/00000000:00000000 0
+create /s4cluster/parts/items/00000000:00000001 0
+create /s4cluster/parts/items/00000000:00000002 0
+create /s4cluster/parts/items/00000000:00000003 0
+create /s4cluster/parts/items/00000000:00000004 0
+create /s4cluster/parts/items/00000000:00000005 0
+create /s4cluster/parts/items/00000000:00000006 0
+create /s4cluster/parts/items/00000000:00000007 0
+create /s4cluster/parts/items/00000000:00000008 0
+create /s4cluster/parts/items/00000000:00000009 0
+create /s4cluster/parts/items/00000000:0000000A 0
+create /s4cluster/parts/items/00000000:0000000B 0
+create /s4cluster/parts/items/00000000:0000000C 0
+create /s4cluster/parts/items/00000000:0000000D 0
+create /s4cluster/parts/items/00000000:0000000E 0
+create /s4cluster/parts/items/00000000:0000000F 0
+create /s4cluster/parts/items/00000000:00000010 0
+create /s4cluster/parts/items/00000000:00000011 0
+create /s4cluster/parts/items/00000000:00000012 0
+create /s4cluster/parts/items/00000000:00000013 0
+create /s4cluster/parts/items/00000001:00000001 0
+create /s4cluster/parts/items/00000001:00000002 0
+
+create /s4cluster/route/map 0
+create /s4cluster/route/hold 0
+
+create /s4cluster/transfer/balance 0
+create /s4cluster/transfer/shed 0

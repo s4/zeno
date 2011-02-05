@@ -138,7 +138,7 @@ public class EventRateLoadMonitor implements LoadMonitor, EventMonitor {
      *            config map to initialize from
      */
     public EventRateLoadMonitor(ConfigMap spec) {
-        this(spec.getInt("monitor.halfLife", 10), // <<<
+        this(spec.getInt("monitor.halfLife", 100), // <<<
              spec.getDouble("monitor.low", 0.5),
              spec.getDouble("monitor.high", 0.8),
              spec.getDouble("resource.capacity", 1.0),
@@ -209,7 +209,7 @@ public class EventRateLoadMonitor implements LoadMonitor, EventMonitor {
 
     public Resource getExcessResourceUsage() {
         double used = getEventRate() * getEventLength();
-        return new TimeSliceResource(Math.max(0.0d, (used - shed)));
+        return new TimeSliceResource(Math.max(0.0d, (used - accept)));
     }
 
     public String toString() {

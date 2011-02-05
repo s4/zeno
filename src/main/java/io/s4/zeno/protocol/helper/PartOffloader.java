@@ -124,6 +124,8 @@ public class PartOffloader {
 
                         Resource free = sender.getFreeResource();
 
+                        sender.goodbye();
+
                         if (nodeFreeReserve != null) {
                             // want to keep atleast nodeFreeReserve
                             // resources
